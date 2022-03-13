@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Sorteio</title>
+    
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <div id="centro">
+                <h1>Sorteio</h1>
+                <p>Adicione os nomes dos participantes que farão parte do sorteio, quando todos estiverem adicionados basta sortear!</p>
+                <input id="nome" placeholder="NOME:" type="text"><br> <!--que coisa não? -->
+                <p id="error"></p>
+                <button id="btnAdd" onclick="salvarNome()">Adicionar</button>
+                <button id="btnRemove" onclick="remover()">Remover</button>
+                <button id="btn" onclick="sortear()">SORTEAR</button>
+            </div>
+        </div>
+        <div id="right">
+            <div id="res">
+                <ul>
+                    <a href="https://github.com/HugoVictor1"><li><img src="./image/github.png"></li></a>
+                    <a href="https://www.linkedin.com/in/victor-hugo-silva-655ab4197/"><li><img src="./image/linkedin.png"></li></a>
+                </ul>
+            </div>
+            <div id="info">
+                
+            </div>
+        </div>
+    </div>
+    <div id="nomes"></div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

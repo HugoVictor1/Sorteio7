@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(204 204 204);
+    font-family: sans-serif;
+}
+#container{
+    width: 1000px;
+    margin: auto;
+    height: 500px;
+}
+
+#left{
+    position: relative;
+    width: 50%;
+    float: left;
+    background-color: white;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+#centro{
+    background-color: white;
+    position: relative;
+    height: 100%;
+}
+
+#right{
+    position: relative;
+    width: 50%;
+    float: left;
+    background-color: white;
+    height: 100%;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+}
+
+p{
+    color: rgb(21, 168, 168);
+}
+
+input{
+    width: 96%;
+    margin: 20px 0 10px;
+    padding: 7px;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    background-color: white;
+
+}
+#btn{
+    position: absolute;
+    width: 100%;
+    padding: 12px;
+    border-radius: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+}
+
+#res{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-color: orange;
+    width: 150px;
+}
+
+#info{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    bottom: 80px;
+    left: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color: yellow;
+}
+
+#btnRemove, #btnAdd{
+    background-color: orange;
+    padding: 12px;
+    border-radius: 0;
+    color: black;
+    border: none;
+    box-sizing: border-box;
+    width: 49%;
+    margin: 0;
+}
+
+#btnAdd{
+    position: absolute;
+    left: 0;
+    bottom: 75px;
+}
+
+#btnRemove{
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+}
+
+#error{
+    margin: 0;
+    color: red;
+}
+
+ul{
+    list-style: none;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+}
+
+#nomes{
+    width: 1000px;
+    margin: auto;
+}
+
+#nomes div{
+    background-color: wheat;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 3px;
+
+}
+
+#nomes h3{
+    margin: 3px;
+    color: indigo;
+
+}
